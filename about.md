@@ -1,12 +1,8 @@
 ---
 layout: page
 title: About
-subtitle: Just who the hell you think I am?
+subtitle: Welcome to the mish-mash blog of Brian M. Lin
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Thanks for visiting! This is my little photo blog where I share stories from my daily life at school, my hobby of calligraphy and art, or wherever my travels take me. You can visit my main website at brianmlin.com. 
