@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brian M. Lin</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://brianmlin.com/</link>
+    <atom:link href="http://brianmlin.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Jan 2016 14:46:27 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2016 14:46:27 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Class Redux | Fall 2015</title>
+        <description>&lt;p&gt;Here’s a brief overview of the classes I took this semester and my thoughts on them.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Math 353 - Differential Equations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Physics 152 - Electromagnetics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CompSci 201 - Data Structures and Algorithms&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ECE 280 - Signals and Systems&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;AMES 361 - East Asian Youth Culture&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Class Schedule&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/aces.png&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem with engineering is that whenever you sign up for a class, you don’t just sign up for the lecture. You also get the discussion and the lab! That means a busy busy schedule (as you can tell from my Wednesdays…)&lt;/p&gt;
+
+&lt;p&gt;What did I think about the classes I took?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Math 353 with Prof. Michael Abel&lt;/strong&gt; - this was math how I like it! Highschool-like class size and the professor stops for questions regularly, is approachable, understanding, and takes the time to explain things clearly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Physics 152 with Prof. Philip Barbeau&lt;/strong&gt; - lectures were interesting… but not very practical since the lofty deep physics stuff covered in lecture never really showed up on the homework, quizzes, or tests. Discussion was nice though- Prof. Shailesh did a great job covering and reviewing topics on the blackboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CompSci 201 with Prof. Jeffery Forbes&lt;/strong&gt; - a great class for learning how to program. I learned &lt;strong&gt;a lot&lt;/strong&gt;. Prof. Forbes was pretty informative and very funny. Discussion was not that useful. I think it’s been a while since I took a class and was like “this is stuff I can actually use right now”. What a great feeling.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ECE 280 with Prof. Leslie Collins&lt;/strong&gt; - best taken alongside Differential Equations! This class is essentially applications of DiffEq. You do Fourier Transforms, impulse functions, and all of that stu The textbook gives poor examples, the homework is graded like it’s an exam, and I find myself getting lost in the lectures. Luckily, the labs made up for the rest of the class. My TA was seriously amazing and we got to do cool things like building an AM radio or decoding phone dial tones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AMES 361 with Prof. Dwayne Dixon&lt;/strong&gt; - classwise, this is probably the highlight of my week! (other than the weekend) I really miss discussion style classes when all I take are engineering lectures and this was a great break from the rest of my schedule. Topics were varied and interesting, Korean gamers, hostess clubs, precarious labor, and I got to discuss these themes with a bunch of just as interesting and varied people. Only thing is that I added on this extra class (students normally only take 4) expecting it to be lax… and that was the wrong mindset to take. THat’s on my end though and I highly recommend this class and professor.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://brianmlin.com/school/2015/11/29/ClassRedux.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/school/2015/11/29/ClassRedux.html</guid>
+        
+        
+        <category>school</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly RoboBlog</title>
+        <description>&lt;p&gt;Another good week of Duke Robotics. Over here in the electrical team, we’re working on some cool things.&lt;/p&gt;
+
+&lt;h3 id=&quot;thruster-controls&quot;&gt;Thruster Controls&lt;/h3&gt;
+
+&lt;p&gt;The Hydra (DC motor controller stack) has been assembled and will control 8 Teledyne DC thrusters that will be used to move our robot around. We now have to figure out firmware and protocols to send thruster commands to the Arduino (Mingxuan, Dylan, and the CS team are focusing on that part).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Hydra Stack&quot; src=&quot;http://brianmlin.com/Images/Robotics/hydraStack.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cpu&quot;&gt;CPU&lt;/h3&gt;
+
+&lt;p&gt;Cody and I have been focusing on setting up CentOS Linux on our CPU. Specifically, we want to be able to SSH in from any computer (that means connecting it to the Internet) as well as stream video from our webcams. It’s been a pretty educational (ie frustrating) ride so far!&lt;/p&gt;
+
+&lt;p&gt;We had originally installed the minimal version of CentOS but then switched to the GNOME desktop version (with its nice hot corners and easy to configure connectivity settings).&lt;/p&gt;
+
+&lt;p&gt;So far, we’re able to get SSH running but the webcams are a different story. We’re using Microsoft Lifecams which lag a ton even when connected to our Macs. Another task for next time is to figure out the heat sink situation with our CPU. Right now, we have a fan going but that might have to go in our final implementation.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://brianmlin.com/robotics/2015/11/17/RoboBlogOne.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/robotics/2015/11/17/RoboBlogOne.html</guid>
+        
+        
+        <category>robotics</category>
+        
+      </item>
+    
+      <item>
+        <title>Zhongshan | China 15</title>
+        <description>&lt;p&gt;Zhongshan (中山) is a city in the south of China. It’s a 45 minute bullet train (高铁) ride from Guangzhou’s main train station.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/tower.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The downtown area is clustered with electronics shops and all sorts of inflatable advertisements. Go beyond the downtown area and you can find thick mazes of small gray houses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/door.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also visited the nearby Sun Yat-Sen High School. This places looks unreal! It’s like the backdrop of a Japanese high school drama or anime.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/school1.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a random boat in the pond!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/school2.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lots and lots of green here.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/school3.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sign at the front entrance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/sys.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s quite a lot of lotus ponds nearby. The place we visited also offered Chinese bananas. They’re still yellow, but a lot chubbier than those found in U.S. supermarkets. The flavor was similar, but had a much fuller, tangy taste that reminded me of papaya almost.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/lotus.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/08/09/Zhongshan.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/08/09/Zhongshan.html</guid>
+        
+        <category>china</category>
+        
+        <category>zhongshan</category>
+        
+        <category>2015</category>
+        
+        <category>photos</category>
+        
+        <category>travel</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Guangzhou | China 15</title>
+        <description>&lt;p&gt;Guangzhou (广州) is the third largest city in China, after Beijing and Shanghai. It is located in the south of China and the primary language is Cantonese Chinese.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Guangzhou&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/river.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The photo above shows a stadium located next to the Guangzhou Tower (广州塔). Its reflection reminds me of a wing or fin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Guangzhou&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/clothes.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Guangzhou is hot and humid. It’s 闷热 - so stifling hot that a shower is warranted after every expedition outdoors. You’ll see clothes hung out to dry on the balconies- this is a dorm at South China Normal University (华师大学) where I stayed for some weeks (check out that blue sky though!)&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Guangzhou&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/pigs.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The food is one of the main features of Guangzhou. There is no better way to start the day than with dim sum (飲茶) for breakfast. Steamed fish, roasted pork and duck, fresh lychee- all my favorite foods can be found in Guangzhou.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Guangzhou&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/coconut.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At night, the city is all lights. People, mostly couples, are out in the squares whispering thigns to each other and making good use of their selfie-sticks. The wind is cool, gusting, and refreshing like the front entrance of a department store.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Guangzhou&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/library.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/08/08/Guangzhou.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/08/08/Guangzhou.html</guid>
+        
+        <category>china</category>
+        
+        <category>guangzhou</category>
+        
+        <category>2015</category>
+        
+        <category>photos</category>
+        
+        <category>travel</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Canon Store | China 15</title>
+        <description>&lt;p&gt;Canon is one of the most well-known modern camera manufacturers. Throughout major Chinese cities, you can find Canon stores in high-end shopping areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Canon&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/front.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Canon (キヤノン株式会社) is a Japanese company that makes other imaging products (such as printers, fax machines, etc.) However, their most notable consumer product would be the Canon camera. As a natural extension of the product, the act of &lt;em&gt;photography&lt;/em&gt; is the focus of the store.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Canon&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/canon3.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find DSLR cameras mounted on stands throughout the store. There are also various household items placed on tables, shelves, and other everyday settings. It almost reminds me of a galaxy or solar system! Photography is made easy with a combination of natural sunlight from the wide glass storefront as well as the ceiling lights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Canon&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/print.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To further reinforce the idea that this is a photography store, not just a consumer products store, the staff have a special section dedicated to workshops. When we entered to escape the Shanghai rain, there was a full crowd of around twenty people seated in front of a projector and several Canon staff.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Canon&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/table.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All these different elements remind me of the Apple Stores, which happen to be the most efficient stores in the world, measured in revenue per square foot. The key is the amount of control possible with presentation and service. And Canon stores do a great job at both of those- creating a warm and well-curated environment that I enjoyed exploring and photographing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Canon&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/canon1.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/08/02/Canon-Store.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/08/02/Canon-Store.html</guid>
+        
+        <category>china</category>
+        
+        <category>shanghai</category>
+        
+        <category>canon</category>
+        
+        <category>store</category>
+        
+        <category>rainy</category>
+        
+        <category>weather</category>
+        
+        <category>photos</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Pilot Vanishing Point | Fountain Pen</title>
+        <description>&lt;p&gt;This is a writeup of the Pilot Vanishing Point ‘Special Alloy’ Fountain Pen&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/1.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most people are familiar with the standard 14k or 18k gold Vanishing Point pens produced by Pilot. New ones generally run for around $120-140 online.&lt;/p&gt;
+
+&lt;p&gt;However, Pilot also produces a ‘Special Alloy’ steel nib Capless that is only available domestically in Japan, retailing for around $70. This is a review of that pen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/2.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a a beautiful, shiny, professional-looking pen. The Rhodium accents offer some eye-catching highlights without becoming gaudy, raven-attracting bling. The black lacquered body offers a wonderfully polished reflective surface. When I’m sitting in my office, there are body-length silver streaks from the fluorescent lights above me.  When I’m sketching on the train, I can see buildings and night lights blur by. When I’m sitting by a window on a sunny day, it takes on facets of light and greyscale shades. This is a very good looking pen that shines (quite literally) in that black polished mirror finish. In addition to this Black model, Pilot also offers the steel nib Capless in Silver, Yellow, and perhaps some other colors (all with Rhodium trim).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/4.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This pen feels solid and the fit and finish is top notch. The trim isn’t loose, the clip is secure, and the entire pen feels like one solid unit. The main concern people have with the Capless is that the trapdoor may lose its airtight seal over time. I cannot comment on that as I’ve only owned the pen for a weekend.&lt;/p&gt;
+
+&lt;p&gt;My pen preferences lean to heavy, modern-looking, metal pens. This pen checks off all of those boxes so I’m a happy customer. I was considering the equally priced Custom 74 for its gold nib, but being a light, cigar-shaped, plastic pen it was the complete opposite of what I wanted.&lt;/p&gt;
+
+&lt;p&gt;Like the Lamy Safari, this pen tries to force you to conform to the ‘standard’ tripod grip. I refuse. I have this overhand grip where my pointer finger rests on top, inline with the nib. My thumb and middle finger form some strange tripod on either flank. I just place my pointer finger on top of the clip, thumb and middle finger where they normally go, and all is fine for me. I do pretty much the same thing with the Safari and it doesn’t bother me much. Would I prefer the clip somewhere else or removed entirely? Yes, but not enough to dissuade me from purchasing the pen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/3.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The defining feature of this pen is that it features a ‘special alloy’ (i.e. steel) nib, compared to the standard gold nib Vanishing Points. While the nib is presumably steel, it has a gold color. I would have preferred a silver colored nib, especially in this pen.&lt;/p&gt;
+
+&lt;p&gt;The nib arrived rather dry. I bought this for the purpose of sketching and use textured drawing paper. If you’re wondering why I use that paper, it’s because I like to go over my drawings with a water brush for a sort of water color effect. Out of the box, this pen skipped when making long strokes on my drawing paper. With some adjustment (‘flexing’ the nib slightly against the body of a Jinhao x750), I was able to make this pen a wetter writer. Now, there’s not a sign of skipping- on my drawing paper, Rhodia pad, or Xerox office paper. Good!&lt;/p&gt;
+
+&lt;p&gt;Is this a ‘super smooth’ writer? No. Out of all my fountain pens, my Lamy Safari (fine) has yet to be dethroned as my smoothest writer. I would compare the smoothness of this nib (post adjustment) to my TWSBI Diamond 580 (fine), Pilot Metro (fine), or Pilot Petit1 (fine). I plan on buying a four sided buffing stick to smooth this in the future.&lt;/p&gt;
+
+&lt;p&gt;Overall, it offers a decent writing experience that I can’t complain about (post-adjustment).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/8.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I purchased this pen from the Rakuten seller ‘Komamono-Honpo’ as part of a larger order. The pen itself costs $71 plus shipping. My total order consisted of:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;One Pilot Capless Fine fountain pen
+
+Two bottles of Iroshizuku Ink (Murasaki-Shikibu and Take-Sumi)
+
+Two bottles of Sailor Jentle Four Seasons Ink (Souten and Oku-Yama)
+
+One bottle of Pilot Red (30mL) Ink 
+
+Four Pilot Petit1 pocket fountain pens
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And this came out to a &lt;strong&gt;grand total of $134&lt;/strong&gt;, shipped within 3 days from Japan to Chicago. That’s around the price of a brand new gold Vanishing Point! If I were to choose between a gold nib upgrade or five bottles of ink and four excellent pocket pens, I’d take the ink and pens any day.&lt;/p&gt;
+
+&lt;p&gt;If you weren’t aware, the buying process is as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Go on preferred retailer’s website and add items to your cart.
+
+Enter in your payment and shipping info. Submit your order.
+
+Retailer calculates the shipping cost (based off of weight) and emails you a confirmation email with the shipping cost. 
+
+You either reply to confirm or ignore it. 
+
+After you confirm, they send you the tracking info.
+
+Wait a couple days and receive your package. 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Packaging is very good and the order came in very quickly (especially considering that this is from Japan to Chicago). The outer box contained a smaller box with a layer of bubble wrap sandwiched between. Within the smaller box was all my items individually bubble wrapped. I could probably toss this down the stairs and not break a single bottle of ink. Very impressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Vanishing Point&quot; src=&quot;http://brianmlin.com/Images/Vanishing/5.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/reviews/2015/07/08/Vanishing-Point.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/reviews/2015/07/08/Vanishing-Point.html</guid>
+        
+        <category>fountain pens</category>
+        
+        <category>pilot</category>
+        
+        <category>black</category>
+        
+        <category>vanishing</category>
+        
+        <category>point</category>
+        
+        <category>review</category>
+        
+        
+        <category>reviews</category>
+        
+      </item>
+    
+      <item>
+        <title>LaTeX PDF Creation with Sphinx</title>
+        <description>&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;This will be a close-to-comprehensive guide on how to get started creating PDF and LaTeX files from .rst (reStructuredText) using Sphinx. If you’re not familiar with Sphinx, it’s a documentation generator that takes .rst files and converts them into other formats (such as HTML, PDF, LaTeX, etc.)&lt;/p&gt;
+
+&lt;p&gt;Recommended knowledge:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A basic understanding of programming (preferably Python)&lt;/p&gt;
+
+  &lt;p&gt;Familiarity with basic Mac Terminal concepts and commands (&lt;code class=&quot;highlighter-rouge&quot;&gt;open,cd,ls,pwd,sudo&lt;/code&gt;,etc.)&lt;/p&gt;
+
+  &lt;p&gt;You can visit Duke’s &lt;a href=&quot;http://pundit.pratt.duke.edu/wiki/UNIX_Tutorial&quot;&gt;Unix Tutorial&lt;/a&gt; for some good examples and explanations.&lt;/p&gt;
+
+  &lt;p&gt;A good deal of patience and Google-fu when you get stuck!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note: While you don’t need to be familiar with LaTeX formatting (since Sphinx and MacTeX will do that for you), if you need to do any ‘White Box’ work, it will come in handy!&lt;/p&gt;
+
+&lt;h4 id=&quot;installation&quot;&gt;Installation&lt;/h4&gt;
+
+&lt;p&gt;Your Mac should come with Python 2.7 installed. You may install Python 3 if you wish, but this writeup will use Python 2.7 because that is what I have.&lt;/p&gt;
+
+&lt;p&gt;Install Sphinx according to the &lt;a href=&quot;http://sphinx-doc.org/latest/install.html&quot;&gt;documentation&lt;/a&gt; on their website. I used MacPorts to install Sphinx as they recommended and then did the ‘quick start’ setup. Google ‘Sphinx QuickStart’ for a thorough explanation of the process.&lt;/p&gt;
+
+&lt;p&gt;Download and install &lt;a href=&quot;https://tug.org/mactex/&quot;&gt;MacTeX&lt;/a&gt;. Make sure you download the package with Safari and have sufficient space on your computer. I believe the full package (which you need) takes up around 4-5 gb of space. Note: if space is an issue, you may want to consider avoiding LaTeX and trying rst2pdf or a similar Sphinx extension. However, these alternatives will not be covered in this tutorial.&lt;/p&gt;
+
+&lt;h4 id=&quot;anatomy-of-a-sphinx-main-directory&quot;&gt;Anatomy of a Sphinx Main Directory&lt;/h4&gt;
+
+&lt;p&gt;There are many files and folders created within your Main Directory. In this writeup, we will only concern ourselves with the relevant ones: conf.py, Makefile, _build, and index.rst.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;conf.py&lt;/strong&gt; is our configuration file. This contains your settings from the Sphinx quick start. We can also add extensions (such as rst2pdf) as well as additional options (such as LaTeX, PDF, or HTML options). Since this is a Python script (due to the .py extension), make sure you follow correct Python formatting. If you do not know Python formatting, copy-paste is your friend. Note: a common syntax error arises from TextEdit modifying apostrophes from good vertical apostrophes (‘) to bad slanted apostrophes (‘). Make sure all your apostrophes are vertical!&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Makefile&lt;/strong&gt; contains various command shortcuts that you can run in terminal. For example, instead of having to type in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sphinx-build -b latex -d _build/doctrees   . _build/latex
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can simply type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make latex 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Which will go into the Makefile and run the more complicated code.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;_build&lt;/strong&gt; (builddir) folder contains the files that we build. This includes both the final result (such as a PDF) as well as all the intermediate files (such as a .tex). You can name this folder whatever you want; I simply chose ‘_build’&lt;/p&gt;
+
+&lt;p&gt;Finally, you will need an &lt;strong&gt;index.rst&lt;/strong&gt; file. This has to be an .rst or .txt file (depending on your config settings) and the name does not matter as long as it’s consistent with conf.py. This file will be formatted in reStructuredText (hence the .rst extension) and contains the actual content that will be translated into LaTeX and then PDF.&lt;/p&gt;
+
+&lt;h4 id=&quot;config-and-makefile-setup&quot;&gt;Config and Makefile Setup&lt;/h4&gt;
+
+&lt;p&gt;Your Makefile should come with the correct commands preset. In case you’re missing ‘latex’ and ‘latexpdf’, copy in the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;latex:
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	@echo
+	@echo &quot;Build finished; the LaTeX files are in $(BUILDDIR)/latex.&quot;
+	@echo &quot;Run \`make&#39; in that directory to run these through (pdf)latex&quot; \
+      	&quot;(use \`make latexpdf&#39; here to do that automatically).&quot;
+
+latexpdf:
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	@echo &quot;Running LaTeX files through pdflatex...&quot;
+	$(MAKE) -C $(BUILDDIR)/latex all-pdf
+	@echo &quot;pdflatex finished; the PDF files are in $(BUILDDIR)/latex.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note that &lt;code class=&quot;highlighter-rouge&quot;&gt;latexpdf&lt;/code&gt; contains the &lt;code class=&quot;highlighter-rouge&quot;&gt;latex&lt;/code&gt; command along with the &lt;code class=&quot;highlighter-rouge&quot;&gt;make all-pdf&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;In your &lt;code class=&quot;highlighter-rouge&quot;&gt;conf.py&lt;/code&gt; file, you should find a section entitled &lt;strong&gt;Options for LaTeX output&lt;/strong&gt;. Read through it and modify the presets to fit your project. For most, that means specifying your desired document title and source in the &lt;code class=&quot;highlighter-rouge&quot;&gt;latex_document&lt;/code&gt; setting.&lt;/p&gt;
+
+&lt;h4 id=&quot;tex-and-pdf-creation&quot;&gt;.tex and PDF Creation&lt;/h4&gt;
+
+&lt;p&gt;If all your files are the correct places (i.e. from your directory you should be able to see Makefile, conf.py, _build, and index.rst), all that you need to do now is type in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make latexpdf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It will take a couple moments, but then you will find your freshly created filename.pdf in your _build/latex folder (along with all the intermediate files).&lt;/p&gt;
+
+&lt;h4 id=&quot;pdflatex-issues&quot;&gt;pdflatex Issues&lt;/h4&gt;
+
+&lt;p&gt;You may have encountered an error about &lt;code class=&quot;highlighter-rouge&quot;&gt;pdflatex not found&lt;/code&gt; or something of the sort. &lt;code class=&quot;highlighter-rouge&quot;&gt;pdflatex&lt;/code&gt; is an executable that comes along with MacTeX. But even after installing the full MacTeX package, I was still getting this error!&lt;/p&gt;
+
+&lt;p&gt;After some Googling, I found a very helpful &lt;a href=&quot;https://support.rstudio.com/hc/communities/public/questions/201410073-pdflatex-error-on-OSX&quot;&gt;post&lt;/a&gt; on R Studio.&lt;/p&gt;
+
+&lt;p&gt;User Dave Dyer suggested entering the following lines into your terminal:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo ln -s /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin/usr/texbin
+sudo ln -s /usr/texbin/pdflatex /usr/bin/pdflatex 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And that did it for me! Basically, even though you have the &lt;code class=&quot;highlighter-rouge&quot;&gt;pdflatex&lt;/code&gt; file installed, Sphinx can’t find it when you run the &lt;code class=&quot;highlighter-rouge&quot;&gt;make latexpdf&lt;/code&gt; command. To fix this, you simply need to specify the correct file paths using the &lt;code class=&quot;highlighter-rouge&quot;&gt;ln&lt;/code&gt; command (link).&lt;/p&gt;
+
+&lt;h4 id=&quot;creating-multiple-pdfs&quot;&gt;Creating Multiple PDFs&lt;/h4&gt;
+
+&lt;p&gt;You may want to create multiple PDFs using multiple .rst files. The intuitive way to do this would be to simply go folder by folder and repeat this process. (I am currently working on a more elegant solution that retains the single ‘make latexpdf’ process).&lt;/p&gt;
+
+&lt;p&gt;First, I recommend that you familiarize yourself with the &lt;code class=&quot;highlighter-rouge&quot;&gt;sphinx-build&lt;/code&gt; command’s many options that can be found in Sphinx’s &lt;a href=&quot;http://sphinx-doc.org/invocation.html&quot;&gt;documentation&lt;/a&gt;. The ones that we will cover are &lt;code class=&quot;highlighter-rouge&quot;&gt;-b, -d, and -c&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is the general format for &lt;code class=&quot;highlighter-rouge&quot;&gt;sphinx-build&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sphinx-build [options] sourcedir builddir [filenames]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;‘-b’ gives the &lt;code class=&quot;highlighter-rouge&quot;&gt;buildername&lt;/code&gt;, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;latex&lt;/code&gt;. We will be using &lt;code class=&quot;highlighter-rouge&quot;&gt;latex&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;‘-d’ specifies the path within the source directory. This is what’s used when we run ‘make latex’&lt;/p&gt;
+
+&lt;p&gt;‘-c’ specifies the path somewhere other than the source directory. This is what we will use.&lt;/p&gt;
+
+&lt;p&gt;To convert your .rst file into a .tex file, run the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sphinx-build -b latex -c /foo/bar/folder . /foo/bar/folder/_build/latex
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This takes the index.rst file in &lt;code class=&quot;highlighter-rouge&quot;&gt;folder&lt;/code&gt; and outputs a corresponding .tex file within &lt;code class=&quot;highlighter-rouge&quot;&gt;folder/_build/latex&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; over to the .tex file’s folder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /foo/bar/folder/_build/latex
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And let’s convert everything there to PDF:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make all-pdf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As the name implies, &lt;code class=&quot;highlighter-rouge&quot;&gt;make all-pdf&lt;/code&gt; converts all the .tex files in a folder to PDFs. If you have multiple .rst files, have them output their .tex files to the same folder (such as &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/_build/latex&lt;/code&gt;) and then run &lt;code class=&quot;highlighter-rouge&quot;&gt;make all-pdf&lt;/code&gt; at the very end.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://groups.google.com/forum/#!topic/sphinx-users/XNnVdAhTC7A&quot;&gt;Google groups post&lt;/a&gt; started by Lenz Grimmer was especially helpful to me. I recommend you give it a skim.&lt;/p&gt;
+
+&lt;h4 id=&quot;closing&quot;&gt;Closing&lt;/h4&gt;
+
+&lt;p&gt;Thank you for reading this writeup! I will update this article as a I learn new things and encounter new obstacles. Pictures and screenshots will be added soon though they shouldn’t be necessary to understand the process.&lt;/p&gt;
+
+&lt;p&gt;Please contact me with any questions, suggestions, or criticisms at bri@brianmlin.com.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Last updated: Tuesday, May 26th, 2015&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/tutorials/2015/05/25/SphinxLatexMac.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/tutorials/2015/05/25/SphinxLatexMac.html</guid>
+        
+        <category>sphinx</category>
+        
+        <category>latex</category>
+        
+        <category>tutorials</category>
+        
+        <category>pdf</category>
+        
+        <category>python</category>
+        
+        <category>documentation</category>
+        
+        
+        <category>tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>Windy City Wanderings Part II</title>
+        <description>&lt;p&gt;I completed my first week of work at Clair Vista, LLC in Chicago. Here’s the view looking North from the Kinzie Street Bridge. Beautiful blue sky.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.23/river.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I then head south along Canal Street on the walk back to Union Station and I came across a familiar railroad crossing often seen from the window of the Metra. This is on Canal Street heading south.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.23/cross.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Within an hour, the North Central Service takes me back up north to the Prairie View Station.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.23/home.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s nothing quite like an American flag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.23/flag.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the course of the week, I got some great experience with Python, Sphinx, reStructuredText, and being a part of a great software development team. This will be a great summer!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/05/23/Windy2.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/05/23/Windy2.html</guid>
+        
+        <category>chicago</category>
+        
+        <category>exploration</category>
+        
+        <category>photos</category>
+        
+        <category>sightseeing</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Windy City Wanderings Part I</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/birds.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Water Tower Place, in Chicago. A nice little park on Chicago Avenue with the ever-present ‘Don’t patronize the pigeons!’ signs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/trio.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting trio of towers- (from left to right) The John Hancock Center, Water Tower Place’s Ritz Carlton, and The Chicago Water Work Visitor Center.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/fountain.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting icon of the Chicago Water Works (that name just keeps bringing me back to Monopoly).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/lurie.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Lurie Children’s Hospital.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/cubs.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Passing by Wrigley on the way back via the Red Line ‘L’ train. It’s always fun to see the multi-story houses that stretch up almost to the edge of the stadium stands, like some brick-and-mortar siege towers.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 May 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/05/14/Windy.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/05/14/Windy.html</guid>
+        
+        <category>chicago</category>
+        
+        <category>exploration</category>
+        
+        <category>photos</category>
+        
+        <category>sightseeing</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+      <item>
+        <title>Law School Exploration</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/nu.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Walk down Chicago Avenue, almost to Lake Shore Drive. Find a pair of heavy wooden doors. Go in. Downstairs. Northwestern Law School.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/courtyard.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A beautiful courtyard. Some grads came in later to shoot some photos in their silky purple gowns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/dude.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This funny looking guy must also be graduating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Buckingham Palace&quot; src=&quot;http://brianmlin.com/Images/2015.05.14/rub.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a very interesting building, and only one part of the larger Law School. There was a very old and antiquated Lincoln Hall and long, hardwood-paneled hallways. Yet on the older side of the building was a completely different world- spacious, modern lounges and study areas. On the second floor, across from the library was a glass walled conference room. Wow, what a cool place to be!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 May 2015 00:00:00 -0500</pubDate>
+        <link>http://brianmlin.com/exploration/2015/05/14/LawSchool.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/exploration/2015/05/14/LawSchool.html</guid>
+        
+        <category>northwestern</category>
+        
+        <category>chicago</category>
+        
+        <category>law school</category>
+        
+        <category>exploration</category>
+        
+        
+        <category>exploration</category>
+        
+      </item>
+    
+  </channel>
+</rss>
