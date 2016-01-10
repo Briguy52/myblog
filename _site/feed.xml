@@ -2,13 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brian M. Lin</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>The photo blog of Brian M. Lin
 </description>
-    <link>http://brianmlin.com/</link>
-    <atom:link href="http://brianmlin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Jan 2016 15:10:51 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Jan 2016 15:10:51 -0600</lastBuildDate>
+    <link>http://brianmlin.com/myblog/</link>
+    <atom:link href="http://brianmlin.com/myblog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Jan 2016 16:34:33 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2016 16:34:33 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Scenes from Last Semester</title>
+        <description>&lt;p&gt;A late afternoon sunset over the neighborhoods north of East Campus in Durham.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Sunset&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/barn.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pink and orange streaks in the sky above the Biddle Music building on Duke East Campus, Durham.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Biddle&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/Biddle.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the Keohane quad bridges, stretching over some red leaves below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Keohane Bridge&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/bridge.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the semester, my facult-in-residence family, Prof. Hwansoo Kim and Sumi Loudon Kim, hosted many ‘Snack Attacks’ over at their apartment. (I’m still searching for a Mango Lassi recipe that rivals theirs…) Over Thanksgiving Break, they kindly had students over for brunch, which included some playtime with their cats!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: FIR cat&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/cat.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As part of House Council, I helped organize some well-received food events, such as ‘Dessert Night’. Check out these oreo and cookie cupcakes!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Dessert Night&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/desert.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My dorm at sunset. Looks a lot like the silhouette of a castle, huh?&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Castle&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/fort.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;McClendon tower. Many long and late nights were spent working on CompSci assignments here, fueled by coffee and wafers from Bella Union.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: McClendon Tower&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/McClendon.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This year a new video game center opened up on campus, complete with 10 PC’s, a Wii, and multiple PS4s and Xbox Ones. Over Thanksgiving break, Austin and I attempted to finish the story of Borderlands: The Presequel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Games&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/Mount.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Paul’s Pelikan M400 Souveran fountain pen in white tortoise with a Broad nib. Man, what a pen! Looks beautiful, fits just right into your hand, and -of course- is smooth beyond belief.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Pelikan M400&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/pelican.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing I like to do is build mechanical keyboards. I start by thinking about what size board I want- full size with arrow keys and numpad or perhaps something smaller and more portable. My latest build is what’s called a ‘Planck’. It’s a 4 x 12 grid of unstaggered keys which is super compact and perfect for tucking into a backpack. After deciding on a layout, I choose my switches. You can get clicky ones (that may drive friends and co-workers crazy), silent and super light switches designed for gaming, and everything in between. These switches are then arranged in a matrix with diodes and wires, which are then connected to a Teensy microcontroller that is flashed with the actual firmware. This entire setup fits inside a case I laser cut out of acrylic (complete with engraved Stormtrooper helmet on the bottom). The last step involves adding keycaps and testing the board out! Of course, I forgot to mention the hours of hardware debugging with multimeter in hand, checking every single connection to find the source of the inevitable bugs (‘I’ key returning ‘J’s for example). But it’s well worth it in the end!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Planck&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/Planck.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve spent countless hours loitering around the Innovation Co-Lab, 3D printing and laser cutting all sorts of things. They recently got 20 or more new Ultimaker 2s- some of the sweetest 3D printers I’ve ever used.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Co-Lab&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/shelf.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These things run for a couple thousand each…&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Ultimaker&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/ultimaker.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The suburbs are a beautiful place, telephone wires and all. (The blue sky helps too)&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Sky&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/sky.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Walking back to my dorm with the sun in the sky.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Sun&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/stones.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lasercut topo map made by my outdoorsy friend Addison.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Topo&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/topo.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sun peeking through some trees between Edens and Keohane quads.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Trees&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/trees.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘Friendsgiving’ in the dorm this year. Great food and (minimal) food burning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Friendsgiving&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/creation.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Actually one of the best turkeys I’ve ever had! We cooked it ourselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Turkey&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/Turkey.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some violet flowers outside.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Violet&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/violet.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An orange dusk over the East Campus tennis courts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Photo: Tennis&quot; src=&quot;http://brianmlin.com/Images/2015.11.29/sunsetCourts.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s it for 2015! See you in a bit.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Dec 2015 17:56:45 -0600</pubDate>
+        <link>http://brianmlin.com/myblog/2015/12/19/Scenes2015.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/myblog/2015/12/19/Scenes2015.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zhongshan | China 15</title>
@@ -41,80 +132,11 @@
 &lt;p&gt;&lt;img alt=&quot;Photo: Zhongshan&quot; src=&quot;http://brianmlin.com/Images/2015.08.02/lotus.jpg&quot; style=&quot;max-width:630px;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 18:56:45 -0500</pubDate>
-        <link>http://brianmlin.com/travel/2015/07/19/Zhongshan.html</link>
-        <guid isPermaLink="true">http://brianmlin.com/travel/2015/07/19/Zhongshan.html</guid>
+        <link>http://brianmlin.com/myblog/travel/2015/07/19/Zhongshan.html</link>
+        <guid isPermaLink="true">http://brianmlin.com/myblog/travel/2015/07/19/Zhongshan.html</guid>
         
         
         <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>Sample post from Daktilo</title>
-        <description>&lt;p&gt;Just a sample post to show some of the &lt;em&gt;typography&lt;/em&gt; elements supported from
-&lt;strong&gt;daktilo&lt;/strong&gt; theme.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A blockquote:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are Hitchhikers in the road of open source knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
-
-&lt;p&gt;Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.&lt;/p&gt;
-
-&lt;p&gt;Example code:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;switchUp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;FlipUpCommand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;switchDown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;FlipDownCommand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;storeAndExecute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;switchUp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;storeAndExecute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;switchDown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;A list:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc&lt;/li&gt;
-  &lt;li&gt;Donec ante est, volutpat in mi et, pulvinar congue dolor.&lt;/li&gt;
-  &lt;li&gt;Quisque ultrices pulvinar sollicitudin.&lt;/li&gt;
-  &lt;li&gt;Duis elementum odio eu euismod suscipit.&lt;/li&gt;
-  &lt;li&gt;Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A numbered list:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc.&lt;/li&gt;
-  &lt;li&gt;Donec ante est, volutpat in mi et, pulvinar congue dolor.&lt;/li&gt;
-  &lt;li&gt;Quisque ultrices pulvinar sollicitudin.&lt;/li&gt;
-  &lt;li&gt;Duis elementum odio eu euismod suscipit.&lt;/li&gt;
-  &lt;li&gt;Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Definition list:&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Curabitur cursus magna eu sem cursus&lt;/dt&gt;
-  &lt;dd&gt;ac ultrices urna pharetra.&lt;/dd&gt;
-  &lt;dd&gt;Duis scelerisque ipsum eu luctus elementum.&lt;/dd&gt;
-  &lt;dt&gt;Pellentesque habitant morbi tristique senectus&lt;/dt&gt;
-  &lt;dd&gt;Curabitur malesuada lacus ac gravida porttitor&lt;/dd&gt;
-  &lt;dd&gt;Duis sodales feugiat lorem et mollis.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;Want to suggest something? Please &lt;a href=&quot;https://github.com/kronik3r/daktilo/issues/new&quot;&gt;Send me a request&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Aug 2014 18:56:45 -0500</pubDate>
-        <link>http://brianmlin.com/tool/2014/08/19/sample-post.html</link>
-        <guid isPermaLink="true">http://brianmlin.com/tool/2014/08/19/sample-post.html</guid>
-        
-        
-        <category>tool</category>
         
       </item>
     
