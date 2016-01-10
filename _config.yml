@@ -16,7 +16,7 @@ author:
   # disqus: your_disqus_username
 
 # google_analytics: 'UA-XXXXXXXX-X'
-favicon: "/favicon.ico"
+favicon: "/img/favicon.ico"
 
 # Build settings
 markdown: kramdown
