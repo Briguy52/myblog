@@ -7,7 +7,7 @@ categories: [travel]
 ---
 Zhongshan (中山) is a city in the south of China. It's a 45 minute bullet train (高铁) ride from Guangzhou's main train station. 
 
-<img alt="Photo: Zhongshan" src="http://brianmlin.com/Images/2015.08.02/tower.jpg" style="max-width:630px;">
+<img alt="Photo: Zhongshan" src="http://brianmlin.com/Images/2015.08.02/tower.jpg">
 
 The downtown area is clustered with electronics shops and all sorts of inflatable advertisements. Go beyond the downtown area and you can find thick mazes of small gray houses. 
 
