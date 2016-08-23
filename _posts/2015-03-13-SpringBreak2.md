@@ -2,8 +2,8 @@
 layout: post
 title: A Spring Break Sampler
 description:
-date: 2016-03-14 14:14:14
-categories: 
+date: 2015-03-14 14:14:14
+categories:
 ---
 
 <a href="Images/2015.03.13/amaretto.jpg">
