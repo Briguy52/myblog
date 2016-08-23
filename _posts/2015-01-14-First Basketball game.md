@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title: First Basketball Game!
 subtitle: Duke vs. Miami
 date: 2015-01-14 23:56:45
