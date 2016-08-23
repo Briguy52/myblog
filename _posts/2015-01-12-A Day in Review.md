@@ -2,7 +2,7 @@
 layout: post
 title: A Day in Review
 subtitle: A simple first post
-date: 2016-01-12 23:56:45
+date: 2015-01-12 23:56:45
 categories:
 ---
 Another rainy day here in Durham. You can always tell the day's going to be poor when you have to navigate through or around the Randolph puddle.
