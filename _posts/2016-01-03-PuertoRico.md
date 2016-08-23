@@ -3,7 +3,7 @@ layout: post
 title: Puerto Rico and Virgin Islands
 subtitle: Winter 2015
 date: 2016-01-03 23:56:45
-categories: [travel] [photos] [carribean] [2015]
+categories: 
 ---
 This winter break, I went on a 7 day trip in the Carribean. I began (and ended) in Puerto Rico, but visited multiple outlying islands.
 
